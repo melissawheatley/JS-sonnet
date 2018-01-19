@@ -39,7 +39,7 @@ sonnet = sonnet.replace(/the /g, "a large ");
 sonnet = sonnet.replace(/The /g, "A large ");
 // console.log(sonnet);
 
-document.getElementById("sonnet").innerHTML = sonnet;
+document.getElementById("sonnet").innerText = sonnet;
 
 sonnetCharacters = sonnet.length;
 console.log(`Characters in new sonnet: ${sonnetCharacters}`);

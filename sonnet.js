@@ -25,7 +25,7 @@
 
 // document.getElementById("sonnet").innerHTML = originSonnet;
 
-let sonnet = document.getElementById("sonnet").innerHTML;
+let sonnet = document.getElementById("sonnet").innerText;
 let orphansIndex = sonnet.indexOf("orphans");
 console.log(`Position of Orphans: ${orphansIndex}`);
 

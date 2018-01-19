@@ -30,7 +30,7 @@ let orphansIndex = sonnet.indexOf("orphans");
 console.log(`Position of Orphans: ${orphansIndex}`);
 
 let sonnetCharacters = sonnet.length;
-console.log(`Characters in sonnet: ${sonnetCharacters}`);
+console.log(`Characters in original sonnet: ${sonnetCharacters}`);
 
 sonnet = sonnet.replace("winter", "yuletide");
 // console.log(originSonnet);
@@ -40,3 +40,6 @@ sonnet = sonnet.replace(/The /g, "A large ");
 // console.log(sonnet);
 
 document.getElementById("sonnet").innerHTML = sonnet;
+
+sonnetCharacters = sonnet.length;
+console.log(`Characters in new sonnet: ${sonnetCharacters}`);
